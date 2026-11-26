@@ -1,7 +1,7 @@
 {
   "id": "swagger-ui",
-  "recipe": "swagger-ui-v1",
-  "version": "5.35.1.1",
+  "recipe": "swagger-ui-v2",
+  "version": "5.35.1.2",
   "publisher": "Lu Yifei",
   "help": "https://github.com/LuYifei-TOS-Apps/tos-swagger-ui#readme",
   "official": "https://github.com/swagger-api/swagger-ui",
@@ -13,21 +13,21 @@
       "auth": "SmartBear",
       "descript": "Browse and try an OpenAPI specification hosted on your NAS.",
       "important": "Use port 18883 on a trusted network. Put openapi.yaml in the app data directory and recreate the container to load it.",
-      "release_note": "Initial TOS package for Swagger UI 5.35.1."
+      "release_note": "Run Swagger UI as a non-root user and add the TOS package privacy policy."
     },
     "zh-cn": {
       "name": "Swagger UI",
       "auth": "SmartBear",
       "descript": "在 NAS 上浏览 OpenAPI 接口文档，并尝试发送请求。",
       "important": "请在可信网络内使用 18883 端口。将 openapi.yaml 放入应用数据目录，重建容器以载入文档。",
-      "release_note": "首次发布 Swagger UI 5.35.1 的 TOS 安装包。"
+      "release_note": "使用非 root 用户运行 Swagger UI，并补充 TOS 安装包隐私政策。"
     },
     "zh-hk": {
       "name": "Swagger UI",
       "auth": "SmartBear",
       "descript": "在 NAS 上瀏覽 OpenAPI 介面文件，並嘗試傳送請求。",
       "important": "請在可信網絡內使用 18883 連接埠。將 openapi.yaml 放入應用程式資料目錄，重建容器以載入文件。",
-      "release_note": "首次發佈 Swagger UI 5.35.1 的 TOS 安裝套件。"
+      "release_note": "使用非 root 使用者執行 Swagger UI，並補充 TOS 安裝套件私隱政策。"
     }
   }
 }

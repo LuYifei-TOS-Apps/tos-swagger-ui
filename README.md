@@ -8,6 +8,8 @@ Swagger UI presents interactive API documentation. Install the package for your 
 
 The specification is downloadable by anyone who can reach this service. Store only documents that the service's users may read. Back up the directory mounted at `/spec` before reinstalling.
 
+In TOS package 5.35.1.2, the server runs as UID/GID `101:101`. When upgrading, check that this account can traverse the mounted directory and read `openapi.yaml`.
+
 ## TOS 使用说明
 
 Swagger UI 用于展示可交互的 API 文档。请在安装了 Docker Engine 的 TOS 7 上选择适合 NAS 架构的安装包。
@@ -18,4 +20,8 @@ Swagger UI 用于展示可交互的 API 文档。请在安装了 Docker Engine �
 
 能够访问此服务的人也可以下载接口文档，请只存放允许这些用户查看的文档。重新安装前请备份挂载到 `/spec` 的目录。
 
+TOS 包 5.35.1.2 使用 UID/GID `101:101` 运行。升级时请确认该账号可进入挂载目录并读取 `openapi.yaml`。
+
 [上游项目 / Upstream](https://github.com/swagger-api/swagger-ui) · [配置文档 / Configuration](https://swagger.io/docs/open-source-tools/swagger-ui/usage/configuration/)
+
+[隐私政策 / Privacy policy](PRIVACY.md)
